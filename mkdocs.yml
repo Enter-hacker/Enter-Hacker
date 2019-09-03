@@ -1,0 +1,38 @@
+# Project Information
+site_name: Enter Key Hacker - Enter Key Team
+site_description: hacking just need the enter key
+site_author: 00theway
+site_url: https://github.com/Enter-hacker/Enter-Hacker
+
+
+# Repository
+repo_name: 'Enter-hacker/Enter-Hacker'
+repo_url: 'https://github.com/Enter-hacker/Enter-Hacker'
+#edit_uri: 'issues'
+
+
+copyright: 'Copyright &copy; 2019 - 2020 Enter Key Team'
+
+theme:
+    name: 'material'
+    language: 'zh'
+    palette:
+        primary: 'blue grey'
+        accent: 'grey'
+    logo: 'images/enter-key.svg'
+    favicon: 'images/enter-key2.ico'
+    feature:
+        tabs: true
+    font:
+        text: 'Noto Sans'
+        code: 'Source Code Pro'
+
+
+nav:
+    - Introduction:
+        - Enter: index.md
+        - ATT&CK: attck.md
+        - Oracle Hacking: oracle.md
+        - Mysql Hacking: mysql.md
+        - Mssql Hacking: mssql.md
+
